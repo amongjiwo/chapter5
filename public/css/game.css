@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    width: 1440px;
+    height: 1024px;
+    background-color: #9C835F;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+}
+
+.symbol {
+    width: 55px;
+    height: 87px;
+    font-size: 72px;
+    margin-left: 25px;
+    margin-top: -21.5px;
+    color: #724C21;
+}
+
+.logo {
+    width: 72px;
+    height: 72px;
+    margin-left: 10px;
+}
+
+.title {
+    width: 410px;
+    height: 62px;
+    font-size: 36px;
+    margin-left: 20px;
+    color: #F9B23D;
+}
+
+.player-selection>input {
+    height: 160px;
+    width: 134px;
+}
+
+.player-selection:hover {
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.com-selection>input {
+    height: 160px;
+    width: 134px;
+}
+
+.com-selection:hover {
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#reset>input {
+    height: 71px;
+    width: 77px;
+}
+
+#reset:hover {
+    transform: scale(110%);
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#main-content {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, 2fr);
+    grid-template-areas:
+        ".  player .       com ."
+        ".  player versus  com ."
+        ".  player reset   com .";
+}
+
+#player {
+    grid-area: player;
+}
+
+#player div {
+    margin: 1.5rem;
+    border-radius: 10px;
+}
+
+#versus {
+    grid-area: versus;
+    padding-top: 30px;
+    color: #BD0000;
+}
+
+#com {
+    grid-area: com;
+}
+
+#com div {
+    margin: 1.5rem;
+    border-radius: 10px;
+}
+
+#reset {
+    grid-area: reset;
+    padding-top: 90px;
+}
+
+.playerWin,
+.draw,
+.comWin {
+    background-color: #4C9654;
+    color: white;
+    width: 271px;
+    height: 166px;
+    padding: 35px;
+    font-size: 38px;
+    border-radius: 10px;
+    transform: rotate(-30deg);
+    position: absolute;
+    z-index: 1;
+    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+}
+
+.draw {
+    background-color: #035B0C;
+}
