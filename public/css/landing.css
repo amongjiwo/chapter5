@@ -1,0 +1,652 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* MAIN BACKGROUND */
+.main-page {
+    background-image: url('../img/landing/main-bg.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    height: 880px;
+}
+
+a {
+    color: #FFFFFF !important;
+    font-family: 'Open Sans';
+    line-height: 33px;
+}
+
+.main-bg-dark {
+    margin-top: -0.6px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.reg {
+    position: relative;
+    left: -100px;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    font-family: 'Open Sans';
+    letter-spacing: 0.1em;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    padding-bottom: .30rem;
+    position: relative;
+    left: 80px;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    margin-left: 220px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0.1em;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+/* CONTENT PLAY TRADITIONAL GAME */
+.main-content {
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 17%;
+}
+
+@media (max-width: 767px) {
+    .main-content {
+        left: 5%;
+        top: 8%;
+    }
+}
+
+main h1 {
+    line-height: 83px;
+    margin-bottom: 45px;
+    letter-spacing: 3px;
+    font-family: Arial;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@media (max-width: 767px) {
+    .main h1 {
+        line-height: 89px;
+        letter-spacing: 8px;
+        font-size: 76px;
+    }
+}
+
+main h3 {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+}
+
+.btn-warning {
+    background-color: #FFB548;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* SCROLL DOWN BUTTON */
+.scroll-down-button {
+    position: absolute;
+    bottom: 0px;
+    left: 47%;
+}
+
+.scroll-down-button a {
+    font-size: 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 2px;
+}
+
+.scrool-down {
+    margin-top: -40px;
+}
+
+/* THE GAMES */
+.the-games {
+    background-image: url('../img/landing/the-games-bg.jpg');
+    background-size: 100% 100%;
+    height: 880px;
+}
+
+.games-content {
+    position: relative;
+    margin-top: -1px;
+    top: 28%;
+}
+
+.the-games-text {
+    margin-top: -40px;
+    margin-right: 15px;
+}
+
+.the-games-text h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.the-games-text h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.carousel-inner .carousel-item .d-block {
+    width: 750px;
+    height: 400px;
+}
+
+.carousel {
+    width: 750px;
+    height: 400px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+    margin-right: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../img/landing/switch.svg');
+    position: relative;
+    left: -75px;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../img/landing/switch-next.svg');
+    position: relative;
+    right: -75px;
+}
+
+/* GAME FEATURES */
+.game-features {
+    background-image: url('../img/landing/features.jpg');
+    background-size: 100% 100%;
+    height: 880px;
+}
+
+.game-features .game-features-text {
+    width: 400px;
+    position: relative;
+    top: -25px;
+    right: 200px;
+    color: #FFFFFF
+}
+
+@media (max-width: 1199px) {
+    .game-features .game-features-text {
+        right: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .game-features .game-features-text {
+        right: -43px;
+    }
+}
+
+.game-features-text h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.game-features-text h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.white-circle {
+    border: 1px solid #FFFFFF;
+    width: 15px;
+    height: 15px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 152px;
+    left: -2px;
+}
+
+.vertical-line {
+    border-left: 2px solid #FFFFFF;
+    height: 120px;
+    position: absolute;
+    left: 5px;
+    top: 165px;
+}
+
+.black-circle {
+    border: 1px solid #FFFFFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 284px;
+    left: -1px;
+}
+
+.black-circle2 {
+    border: 1px solid #FFFFFF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 353px;
+    left: -1px;
+}
+
+.content-orange {
+    margin-left: 45px;
+}
+
+.text-orange {
+    color: #FFB548;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    position: relative;
+}
+
+/* SYSTEM REQUIREMENTS */
+.system {
+    background-image: radial-gradient(30% 75% at 65% 40%,
+            rgba(0, 0, 52, 0) 0%,
+            rgba(10, 10, 10, 0.50) 50%,
+            #000 95%), url('../img/landing/requirements.png');
+    background-size: 100% 100%;
+    height: 880px;
+    color: #FFFFFF;
+}
+
+.system h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+.system-req {
+    width: 532px;
+    height: 400px;
+    position: relative;
+    top: 23%;
+    left: 10%;
+}
+
+.system-req h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.table {
+    border: 0.2px solid rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+}
+
+table td p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+table tr span {
+    color: #FFB548;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* TOP SCORES */
+.scores {
+    background-image: url('../img/landing/top-score-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 880px;
+    padding: 130px;
+}
+
+.top-scores {
+    color: #FFFFFF;
+    margin-left: -15px;
+    position: relative;
+    top: 140px;
+}
+
+.top-scores h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.top-scores p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 330px;
+    line-height: 22px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.top-scores .see-more {
+    margin-top: 25px;
+    background-color: #FFB548;
+    width: 220px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1A1917;
+}
+
+.card-data {
+    position: relative;
+    right: -80px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    height: 550px;
+}
+
+.card-col {
+    position: absolute;
+    right: -115px;
+    width: 800px;
+}
+
+.card-2 {
+    position: relative;
+    margin-left: -100px;
+    width: 100%;
+    height: auto;
+}
+
+.content-card {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.content-card .picture {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    box-shadow: 5px 1px #FFB548;
+}
+
+.content-card .twitter-logo {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.name {
+    margin: 0px;
+    position: relative;
+    left: 20px;
+}
+
+.name .name-orange {
+    color: #FFB548;
+    margin-bottom: -12px;
+    font-size: 24px;
+}
+
+.name .job {
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+.clear {
+    clear: both;
+}
+
+.card-text {
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.card-footer {
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+/* SUBSCRIBE + FOOTER */
+
+.last-page {
+    background-color: black;
+    height: 830px;
+}
+
+.container-subs {
+    margin-top: -1px;
+}
+
+.last-page .col-pic {
+    background-image: url('../img/landing/skull.png');
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 694px;
+    background-size: cover 50%;
+}
+
+.last-page .col-text {
+    position: relative;
+    left: -100px;
+    top: -90px;
+    color: #FFFFFF;
+    width: 445px;
+}
+
+.last-page .form button {
+    margin-right: -20px;
+}
+
+.col-footer1 .col-footer2 {
+    margin-bottom: 20px;
+}
+
+.last-page .form {
+    margin-right: 20px;
+}
+
+.last-page .form label {
+    position: absolute;
+    left: 32px;
+    top: 308px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    opacity: 0.5;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.last-page .form-input {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #FFFFFF;
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+}
+
+::placeholder {
+    color: #FFB548;
+    position: relative;
+    margin-top: 2px;
+    font-size: 18px;
+    line-height: 25px;
+    top: 5px;
+    left: 10px;
+}
+
+.last-page .col-text h3 {
+    width: 190px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.last-page .col-text h1 {
+    width: 190px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+}
+
+.last-page .col-text p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.col-footer1 {
+    position: relative;
+    top: 7px;
+    left: 160px;
+}
+
+.col-footer1 ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.col-footer1 ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.col-footer2 img {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+hr {
+    color: #FFFFFF;
+}
+
+.col-copyright {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.col-policy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
