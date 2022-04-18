@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/game.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="symbol">&#60</div>
+        <div class="logo">
+            <img src="/img/game/logo.png" alt="logo" />
+        </div>
+        <h1 class="title">Rock Paper Scissors</h1>
+    </div>
+
+    <div id="main-content">
+        <div id="player">
+            <h2>PLAYER 1</h2>
+            <div class="player-selection">
+                <img onclick="startGame('rock')" src="/img/game/batu.png">
+            </div>
+            <div class="player-selection">
+                <img onclick="startGame('paper')" src="/img/game/kertas.png">
+            </div>
+            <div class="player-selection">
+                <img onclick="startGame('scissors')" src="/img/game/gunting.png">
+            </div>
+        </div>
+
+        <div id="versus">
+            <h2 class="versus">VS</h2>
+        </div>
+
+        <div id="com">
+            <h2>COM</h2>
+            <div class="com-selection">
+                <img src="/img/game/batu.png">
+            </div>
+            <div class="com-selection">
+                <img src="/img/game/kertas.png">
+            </div>
+            <div class="com-selection">
+                <img src="/img/game/gunting.png">
+            </div>
+        </div>
+
+        <div id="reset">
+            <img onclick="resetGame()" src="/img/game/refresh.png">
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
